@@ -10,8 +10,6 @@ box.style.backgroundColor = `#${randomHex()}` //concatenated   random 6 digit al
 
 })
 
-// advanced
-// usage of Math.random property to 
 
 
 
@@ -25,3 +23,6 @@ function randomHex() {
 
   return hexCode;
 }
+
+// advanced
+// this function takes a random integer within the length of  variable "possibleValues" and then stores char/int  in "hexCode" variable upto 6 times
