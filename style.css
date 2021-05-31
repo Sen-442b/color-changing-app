@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 600px;
+    margin: auto;
+    padding: 2rem;
+    font-family: Source Sans Pro;
+}
+
+h1{
+    text-align: center;
+}
+.box{
+    width: 500px;
+    height: 500px;
+    padding: 50% 0;
+    background-color :black;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+#btn{
+    margin: 30px;
+    padding: 20px;
+    border: 2px solid gray;
+    background-color: #252324;
+    border-radius: 4px;
+    box-shadow: 2px 3px 4px black;
+    cursor: pointer;
+    font-family: inherit;
+
+ 
+}
+
+#btn:hover{
+    opacity: 0.8;
+}
